@@ -57,7 +57,7 @@ $ python -m alfred.gen.render_trajs
 or download it from [here](https://acvrpublicycchen.blob.core.windows.net/lacma/data.tar):
 ```bash
 $ wget https://acvrpublicycchen.blob.core.windows.net/lacma/data.tar
-$ tar -zxvf data.tar -C $LACMA_DATA
+$ tar -xvf data.tar -C $LACMA_DATA
 ```
 
 Create an LMDB dataset with natural language annotations:
