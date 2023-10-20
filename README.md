@@ -49,7 +49,7 @@ $ mkdir $LACMA_LOGS/pretrained
 $ unzip pretrained.zip -d $LACMA_LOGS/pretrained
 ```
 
-Rollout the trajectories to get the field of view (FOV) images or download it from [here](https://acvrpublicycchen.blob.core.windows.net/lacma/data.tar)::
+Rollout the trajectories to get the field of view (FOV) images or download it from [here](https://acvrpublicycchen.blob.core.windows.net/lacma/data.tar):
 ```bash
 # Manually rollout the trajectories
 $ python -m alfred.gen.render_trajs
