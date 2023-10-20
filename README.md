@@ -1,7 +1,8 @@
 # LACMA (Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following)
 
 This is the code base to reproduce:
-[<b>LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following</b>](https://arxiv.org/abs/2310.12344) (EMNLP 2023), by 
+[<b>LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following</b>](https://arxiv.org/abs/2310.12344) (EMNLP 2023)
+
 [Cheng-Fu Yang](https://joeyy5588.github.io/), Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, Yu-Chiang Frank Wang, Kai-Wei Chang
 
 ![](files/lacma.png)
@@ -48,10 +49,16 @@ $ mkdir $LACMA_LOGS/pretrained
 $ unzip pretrained.zip -d $LACMA_LOGS/pretrained
 ```
 
-Rollout the trajectories to get the images or download it from [here]():
+Rollout the trajectories to get the images:
 ```bash
 $ python -m alfred.gen.render_trajs
 ``` 
+
+or download it from [here](wget https://acvrpublicycchen.blob.core.windows.net/lacma/data.tar):
+```bash
+$ wget https://acvrpublicycchen.blob.core.windows.net/lacma/data.tar
+$ tar -zxvf data.tar -C $LACMA_DATA
+```
 
 Create an LMDB dataset with natural language annotations:
 ```bash
