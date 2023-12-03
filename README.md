@@ -3,7 +3,7 @@
 This is the code base to reproduce:
 [<b>LACMA: Language-Aligning Contrastive Learning with Meta-Actions for Embodied Instruction Following</b>](https://arxiv.org/abs/2310.12344) (EMNLP 2023)
 
-[Cheng-Fu Yang](https://joeyy5588.github.io/), Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, Yu-Chiang Frank Wang, Kai-Wei Chang
+[Cheng-Fu Yang](https://joeyy5588.github.io/chengfu-yang/), Yen-Chun Chen, Jianwei Yang, Xiyang Dai, Lu Yuan, Yu-Chiang Frank Wang, Kai-Wei Chang
 
 ![](files/lacma.png)
 
